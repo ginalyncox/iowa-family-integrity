@@ -16,9 +16,9 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 ## 📚 Core Documents
 | Document | Description | Link |
 |----------|-------------|------|
-| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/iowa-family-integrity-policy-packet.pdf) |
-| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/iowa-family-integrity-full-initiative.pdf) |
-| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/legislative-draft.pdf) |
+| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf) |
+| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf) |
+| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/Legislative_Draft.pdf) |
 
 ---
 
@@ -30,11 +30,13 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 
 ---
 
-## 🤝 Coalition Partners
-- [NORML – National Organization for the Reform of Marijuana Laws](https://norml.org/)  
-- [ACLU of Iowa](https://www.aclu-ia.org/)  
-- Iowa Harm Reduction Coalition  
-- Iowa patient-rights advocates and medical professionals  
+## 🤝 Collaboration & Advocacy Network
+The **Iowa Family Integrity and Patient Protection Initiative** is a **citizen-led effort**.  
+We welcome collaboration from Iowa-based organizations, healthcare professionals, attorneys, social workers, and patient advocates who believe that no lawful medical patient should lose custody, housing, or opportunity because of their state-approved treatment.
+
+If your organization or practice supports evidence-based reform and family integrity protections, reach out to explore endorsement or coalition alignment.
+
+📬 **Contact:** [gina.lyn.cox@gmail.com](mailto:gina.lyn.cox@gmail.com)
 
 ---
 
