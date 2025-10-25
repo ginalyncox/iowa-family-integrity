@@ -16,9 +16,9 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 ## 📚 Core Documents
 | Document | Description | Link |
 |-----------|--------------|------|
-| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa_Family_Integrity_Policy_Packet.pdf) |
-| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa_Family_Integrity_Initiative.pdf) |
-| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Family_Integrity_Legislative_Draft.pdf) |
+| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa%20Family%20Integrity%20Policy%20Packet.pdf) |
+| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa%20Family%20Integrity%20Full%20Initiative.pdf) |
+| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Family%20Integrity%20Legislative%20Draft.pdf) |
 
 ---
 
