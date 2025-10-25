@@ -7,7 +7,7 @@
 ---
 
 ## 🌿 Overview
-The **Iowa Family Integrity and Patient Protection Initiative** is a citizen-led effort to ensure that Iowans who lawfully participate in the state’s medical cannabis program are not penalized in custody, foster, or adoption proceedings.  
+The **Iowa Family Integrity and Patient Protection Initiative** is a citizen-led effort to ensure that Iowans who lawfully participate in the state’s medical cannabis program are not penalized in custody, foster, or adoption proceedings.
 
 This project promotes *patient safety, family stability, and respect for Iowa’s sovereignty* through legislative reform, administrative oversight, judicial accountability, and public education.
 
@@ -15,18 +15,18 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 
 ## 📚 Core Documents
 | Document | Description | Link |
-|-----------|--------------|------|
-| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa%20Family%20Integrity%20Policy%20Packet.pdf) |
-| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa%20Family%20Integrity%20Full%20Initiative.pdf) |
-| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Family%20Integrity%20Legislative%20Draft.pdf) |
+|----------|-------------|------|
+| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/iowa-family-integrity-policy-packet.pdf) |
+| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/iowa-family-integrity-full-initiative.pdf) |
+| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/legislative-draft.pdf) |
 
 ---
 
 ## 🏛️ Legislative Goals
 1. Protect lawful medical-cannabis patients from discrimination in family or child-welfare decisions.  
 2. Clarify that *impairment*, not *presence*, is the standard of parental fitness.  
-3. Require Iowa HHS to issue interpretive guidance under Iowa Code §17A.7.  
-4. Encourage the Iowa Supreme Court to reaffirm equal treatment for medical patients.  
+3. Require Iowa HHS to issue interpretive guidance under Iowa Code § 17A.7.  
+4. Encourage the Iowa Supreme Court to reaffirm equal treatment for medical-cannabis patients.
 
 ---
 
@@ -47,6 +47,6 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 
 ## ⚖️ License
 This repository and its policy materials are released under the **Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
-You may share and adapt this work with attribution, but not for commercial purposes.  
+You may share and adapt this work with attribution, but not for commercial purposes.
 
 Learn more: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
