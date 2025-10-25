@@ -41,7 +41,7 @@ If your organization or practice supports evidence-based reform and family integ
 ---
 
 ## 💬 How to Support
-- 📥 **Share Your Story:** [Email Gina Lyn Cox](mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story)  
+- 📥 **Share Your Story:** [Email](mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story)  
 - 🏛️ **Contact Your Legislator:** Forward the Policy Packet and Legislative Draft.  
 - 🌐 **Website:** [View Initiative Site](https://ginalyncox.github.io/iowa-family-integrity/)  
 
