@@ -16,10 +16,9 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 ## 📚 Core Documents
 | Document | Description | Link |
 |-----------|--------------|------|
-| **Full Initiative Document** | Comprehensive proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/Iowa_Family_Integrity_Initiative.pdf) |
-| **Policy Packet** | Summary bundle for lawmakers and advocacy partners | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/Iowa_Family_Integrity_Policy_Packet.pdf) |
-| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/Family_Integrity_Legislative_Draft.pdf) |
-| **Legislative Packet** | Annotated act text and implementation roadmap | [Open PDF](https://ginalyncox.github.io/iowa-family-integrity/Family_Integrity_and_Medical_Cannabis_Patient_Protection_Act_Packet.pdf) |
+| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa_Family_Integrity_Policy_Packet.pdf) |
+| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Iowa_Family_Integrity_Initiative.pdf) |
+| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://raw.githubusercontent.com/ginalyncox/iowa-family-integrity/main/Family_Integrity_Legislative_Draft.pdf) |
 
 ---
 
@@ -39,9 +38,9 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 
 ---
 
-## 💡 Get Involved
+## 💬 How to Support
 - 📥 **Share Your Story:** [Email Gina Lyn Cox](mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story)  
-- 💬 **Advocate:** Forward the policy packet to your Iowa legislator.  
+- 🏛️ **Contact Your Legislator:** Forward the Policy Packet and Legislative Draft.  
 - 🌐 **Website:** [View Initiative Site](https://ginalyncox.github.io/iowa-family-integrity/)  
 
 ---
@@ -50,4 +49,4 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 This repository and its policy materials are released under the **Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
 You may share and adapt this work with attribution, but not for commercial purposes.  
 
-Learn more at: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+Learn more: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
