@@ -1,3 +1,18 @@
 User-agent: *
 Allow: /
+
+# Sitemap for search engines
 Sitemap: https://ginalyncox.github.io/iowa-family-integrity/sitemap.xml
+
+# Allow PDF and ZIP assets
+Allow: /assets/*.pdf
+Allow: /assets/*.zip
+
+# Disallow internal or redundant files
+Disallow: /nav.html
+Disallow: /script.js
+Disallow: /style.css
+Disallow: /LICENSE.txt
+
+# Crawl delay for civic scrapers (optional)
+Crawl-delay: 3
