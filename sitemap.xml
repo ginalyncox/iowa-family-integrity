@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/</loc></url>
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/index.html</loc></url>
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/press.html</loc></url>
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.html</loc></url>
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf</loc></url>
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf</loc></url>
-  <url><loc>https://ginalyncox.github.io/iowa-family-integrity/Legislative_Draft.pdf</loc></url>
+
+  <!-- Core Pages -->
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/press.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/resources.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Assets -->
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/assets/Policy_Packet.pdf</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/assets/Full_Initiative.pdf</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/assets/Legislative_Draft.pdf</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ginalyncox.github.io/iowa-family-integrity/assets/iowa-family-integrity-press-kit.zip</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
