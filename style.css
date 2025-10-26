@@ -177,3 +177,59 @@ footer{
   header, footer, #topBtn{display:none !important}
   section{padding:20px}
 }
+/* ==============================
+   Mobile refinements
+   ============================== */
+@media (max-width: 640px) {
+  /* Base type + spacing */
+  body { font-size: 16px; line-height: 1.65; }
+  section { padding: 24px 18px; }
+
+  /* Header/title legibility on small screens */
+  header { padding: 18px; }
+  header h1 { font-size: 1.65em; letter-spacing: 0.3px; }
+  header p { font-size: 0.95em; }
+
+  /* Nav wraps neatly with comfy tap targets */
+  nav ul { gap: 12px; }
+  nav ul li a {
+    display: inline-block;
+    padding: 8px 6px;
+    line-height: 1.2;
+  }
+
+  /* Hero block: less padding, readable text */
+  .hero { padding: 36px 16px; }
+  .hero h1 { font-size: 1.35em; }
+  .hero p  { font-size: 1.05em; }
+
+  /* Buttons: full-width on mobile for easy tapping */
+  .btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;         /* recommended touch target */
+    font-size: 1rem;
+    padding: 12px 16px;
+  }
+
+  /* Cards tighten up; grid already collapses to 1 column */
+  .card { padding: 16px; }
+  .grid { gap: 18px; }
+
+  /* Lists breathe better */
+  section ul { padding-left: 18px; }
+  section li { margin: 0.4rem 0; }
+
+  /* Scroll-to-top button sits a bit tighter on small screens */
+  #topBtn { bottom: 16px; right: 16px; }
+
+  /* Long links/words won’t overflow */
+  p, li, a { overflow-wrap: anywhere; }
+}
+
+/* Slightly larger phones/phablets */
+@media (min-width: 641px) and (max-width: 900px) {
+  header h1 { font-size: 1.9em; }
+  .hero h1 { font-size: 1.5em; }
+  .btn { min-height: 44px; }
+}
