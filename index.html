@@ -30,12 +30,12 @@
       </p>
       <div class="btn-row" role="group" aria-label="Primary actions">
         <a class="btn primary" href="Policy_Packet.pdf" download>Download Policy Packet (PDF)</a>
-        <a class="btn ghost" href="Full_Initiative.html">Read Full Initiative</a>
+        <a class="btn ghost" href="Full_Initiative.pdf">Read Full Initiative (PDF)</a>
         <a class="btn ghost" href="press.html">Press Kit</a>
       </div>
     </section>
 
-    <!-- Quick Facts (condensed) -->
+    <!-- Quick Facts -->
     <section id="quick-facts" class="card" aria-labelledby="qf-title">
       <header><h2 id="qf-title">Quick Facts</h2></header>
       <dl class="facts">
@@ -99,13 +99,13 @@
       </details>
     </section>
 
-    <!-- Contact / Get involved -->
+    <!-- Press & Contact -->
     <section class="card" aria-labelledby="contact-title">
       <h2 id="contact-title">Press & Contact</h2>
       <p>Interviews, data requests, or draft language review:</p>
       <ul class="ul-clean">
-        <li><strong>Press:</strong> <a href="mailto:press@ifipp-ia.org">press@ifipp-ia.org</a></li>
-        <li><strong>Founder:</strong> Gina Lyn Cox — <a href="mailto:gina@ifipp-ia.org">gina@ifipp-ia.org</a></li>
+        <li><strong>Press:</strong> gina.lyn.cox@gmail.com</li>
+        <li><strong>Founder:</strong> Gina Lyn Cox</li>
       </ul>
     </section>
   </main>
@@ -127,13 +127,12 @@
           el.innerHTML = `<ul>
             <li><a href="index.html" aria-current="page">Home</a></li>
             <li><a href="press.html">Press</a></li>
-            <li><a href="Full_Initiative.html">Initiative</a></li>
+            <li><a href="Full_Initiative.pdf">Initiative</a></li>
             <li><a href="Policy_Packet.pdf">Policy Packet</a></li>
           </ul>`;
         }
       } catch {}
       document.getElementById('yr').textContent = new Date().getFullYear();
-      // Mark current link if served as file:// or odd host
       const here = location.pathname.split('/').pop() || 'index.html';
       document.querySelectorAll('#site-nav a').forEach(a=>{
         if(a.getAttribute('href')===here) a.setAttribute('aria-current','page');
