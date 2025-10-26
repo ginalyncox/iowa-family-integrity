@@ -23,8 +23,8 @@
   <main id="content" class="container stack">
     <section class="hero section">
       <span class="pill">Iowa-wide • Legislative + HHS + Judicial</span>
-      <h1>Press Overview</h1>
-      <p>Aligning Iowa’s medical-cannabis framework with child-welfare practice so lawful patients aren’t penalized for responsible treatment.</p>
+      <h1>Press & Collaboration</h1>
+      <p>All official press materials, quick facts, and contact information.</p>
     </section>
 
     <section class="card section">
@@ -54,17 +54,12 @@
         <li><a href="assets/Legislative_Draft.pdf">Legislative Draft (PDF)</a></li>
         <li><a href="assets/iowa-family-integrity-press-kit.zip">Press Kit (ZIP)</a></li>
       </ul>
-      <p><small>ZIP includes a one-pager and press-release template, plus the PDFs.</small></p>
+      <p><small>ZIP includes PDFs, a one-pager, and a press-release template.</small></p>
     </section>
 
     <section class="card section">
       <h2>Collaboration & Sponsorship</h2>
       <p>The Initiative welcomes dialogue with Iowa legislators, attorneys, clinicians, and organizations aligned with evidence-based family integrity protections.</p>
-      <ul class="ul-clean">
-        <li><strong>Legislative Partners:</strong> Schedule a briefing or request a red-line draft.</li>
-        <li><strong>Associations:</strong> Endorse, testify, or share technical input.</li>
-        <li><strong>Community Orgs:</strong> Collaborate on outreach and education.</li>
-      </ul>
       <p>Email <a href="mailto:gina.lyn.cox@gmail.com">gina.lyn.cox@gmail.com</a> for sponsorship discussions or editable materials.</p>
     </section>
   </main>
@@ -75,25 +70,6 @@
     </div>
   </footer>
 
-  <script>
-    (async () => {
-      try {
-        const r = await fetch('nav.html', {cache:'no-store'});
-        const nav = document.getElementById('site-nav');
-        if (r.ok) nav.innerHTML = await r.text();
-        else nav.innerHTML = `<ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Full_Initiative.html">Initiative</a></li>
-          <li><a href="press.html" aria-current="page">Press</a></li>
-          <li><a href="resources.html">Resources</a></li>
-        </ul>`;
-      } catch {}
-      document.getElementById('yr').textContent = new Date().getFullYear();
-      const here = location.pathname.split('/').pop() || 'press.html';
-      document.querySelectorAll('#site-nav a').forEach(a=>{
-        if (a.getAttribute('href') === here) a.setAttribute('aria-current','page');
-      });
-    })();
-  </script>
+  <script src="script.js" defer></script>
 </body>
 </html>
