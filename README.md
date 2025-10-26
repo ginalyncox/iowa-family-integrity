@@ -1,4 +1,4 @@
-# Iowa Family Integrity and Patient Protection Initiative
+# 🌿 Iowa Family Integrity and Patient Protection Initiative
 
 **Founder:** Gina Lyn Cox — Altoona, Iowa  
 **Email:** [gina.lyn.cox@gmail.com](mailto:gina.lyn.cox@gmail.com)  
@@ -6,54 +6,79 @@
 
 ---
 
-## 🌿 Overview
-The **Iowa Family Integrity and Patient Protection Initiative** is a citizen-led effort to ensure that Iowans who lawfully participate in the state’s medical-cannabis program are not penalized in custody, foster, or adoption proceedings.
+## Overview
 
-This initiative promotes **patient safety, family stability, and respect for Iowa’s sovereignty** through legislative reform, administrative oversight, judicial accountability, and public education.
+The **Iowa Family Integrity and Patient Protection Initiative** is a **citizen-led effort** to ensure that Iowans who lawfully participate in the state’s medical cannabis program are **not penalized in custody, foster-care, or adoption proceedings.**
+
+This project promotes *patient safety, family stability, and respect for Iowa’s sovereignty* through:
+
+- Legislative reform  
+- Administrative oversight (Iowa HHS guidance under Iowa Code § 17A.7)  
+- Judicial education and accountability  
+- Public awareness and evidence-based training
 
 ---
 
-## 📚 Core Documents
+## Quick Facts
+
+| Key | Detail |
+|-----|---------|
+| **Founder** | Gina Lyn Cox — Altoona, Iowa |
+| **Core Goal** | Protect lawful medical-cannabis patients in family law cases |
+| **Standard** | **Impairment**, not **presence**, as the measure of safety |
+| **Scope** | Legislative reform • HHS guidance • Judicial education |
+| **Primary Citation** | Iowa Medical Cannabidiol Act — [Iowa Code §124E](https://www.legis.iowa.gov/docs/code/124E.pdf) |
+
+---
+
+## Legislative Goals
+
+1. Protect lawful medical-cannabis patients from discrimination in family and child-welfare cases.  
+2. Clarify that **impairment**, not the **presence** of metabolites, is the legal standard of parental fitness.  
+3. Require Iowa HHS to issue interpretive guidance under **Iowa Code §17A.7** to align agency practice with statute.  
+4. Encourage the Iowa Supreme Court to reaffirm equal treatment for lawful medical patients.  
+
+---
+
+## Core Documents
+
 | Document | Description | Link |
-|----------|-------------|------|
-| **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf) |
-| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf) |
-| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/Legislative_Draft.pdf) |
-| **Press Kit (ZIP)** | PDFs, one-pager, and press release template | [Download ZIP](https://ginalyncox.github.io/iowa-family-integrity/iowa-family-integrity-press-kit.zip) |
-| **Press Page** | Web-based media section with Quick Facts | [View Online](https://ginalyncox.github.io/iowa-family-integrity/press.html) |
+|-----------|--------------|------|
+| **Policy Packet** | Comprehensive summary and outreach materials | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/assets/Policy_Packet.pdf) |
+| **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/assets/Full_Initiative.pdf) |
+| **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/assets/Legislative_Draft.pdf) |
+| **Press Kit (ZIP)** | All PDFs plus a one-pager and press-release template | [Download ZIP](https://ginalyncox.github.io/iowa-family-integrity/assets/iowa-family-integrity-press-kit.zip) |
 
 ---
 
-## 🏛️ Legislative Goals
-1. **Protect lawful patients** from discrimination in family, custody, or child-welfare decisions.  
-2. **Clarify** that *impairment*—not the *mere presence* of THC metabolites—is the valid standard of parental fitness.  
-3. **Direct Iowa HHS** to issue interpretive guidance under Iowa Code § 17A.7 ensuring statewide uniformity.  
-4. **Encourage judicial consistency** through Iowa Supreme Court acknowledgment of patient protections.  
+## Collaboration & Sponsorship
 
----
+The Initiative welcomes collaboration with:
 
-## 🤝 Collaboration & Advocacy Network
-The **Iowa Family Integrity and Patient Protection Initiative** is a **citizen-driven advocacy project**.  
-We welcome collaboration from Iowa-based organizations, healthcare professionals, attorneys, social workers, and patient advocates who believe that no lawful medical patient should lose custody, housing, or opportunity because of state-approved treatment.
+- Iowa legislators and staff  
+- Attorneys and judicial officers  
+- Social workers and healthcare professionals  
+- Patient and advocacy organizations  
 
-If your organization or practice supports evidence-based reform and family-integrity protections, contact us to explore endorsement or coalition alignment.
+> **Seeking Legislative Sponsors:**  
+> The Initiative is actively building partnerships with members of the Iowa General Assembly who support family integrity, medical autonomy, and due process protections.
 
 📬 **Contact:** [gina.lyn.cox@gmail.com](mailto:gina.lyn.cox@gmail.com)
 
 ---
 
-## 💬 How to Support
-- 📥 **Share Your Story:** [Email Gina](mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story)  
-- 🏛️ **Contact Your Legislator:** Forward the Policy Packet and Legislative Draft to your Iowa House and Senate representatives.  
-- 🌐 **Website:** [View Initiative Site](https://ginalyncox.github.io/iowa-family-integrity/)  
-- 📰 **Press Page:** [Media Resources](https://ginalyncox.github.io/iowa-family-integrity/press.html)  
-- 🗳️ **Spread Awareness:** Cite the *Impairment Standard*—not *presence*—when discussing Iowa law reform.
+## How to Support
+
+- 🏛️ **Contact Your Legislator:** Forward the Policy Packet and Legislative Draft to your state representative or senator.  
+- 💬 **Share Your Story:** Email your personal experience to help inform testimony and guidance updates.  
+- 📥 **Download Materials:** [View All PDFs](https://ginalyncox.github.io/iowa-family-integrity/resources.html)  
+- 🌐 **Website:** [Iowa Family Integrity & Patient Protection Initiative](https://ginalyncox.github.io/iowa-family-integrity/)  
 
 ---
 
-## ⚖️ License
-This repository and its policy materials are released under the  
-**Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
+## Technical Overview
 
-You may share and adapt this work with attribution, but not for commercial purposes.  
-Learn more: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+**GitHub Pages Repository:**  
+[`https://github.com/ginalyncox/iowa-family-integrity`](https://github.com/ginalyncox/iowa-family-integrity)
+
+**Structure:**
