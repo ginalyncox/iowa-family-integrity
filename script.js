@@ -47,8 +47,7 @@ console.log("%c✅ Iowa Family Integrity site scripts loaded successfully!", "co
       if (!a) return;
       if (entry.isIntersecting){
         tocLinks.forEach(x=>x.classList.remove('active'));
-        a.classList.add('active');
-        // Update hash without jump
+        a.classList.add('active'));
         history.replaceState(null, "", "#"+entry.target.id);
       }
     });
