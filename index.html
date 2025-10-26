@@ -39,11 +39,33 @@
     }
     .btn:hover { background: #0e3f29; }
     .btn .icon { font-size: 1.2em; }
-    footer { background: #333; color: #fff; text-align: center; padding: 20px; }
+    footer { background: #333; color: #fff; text-align: center; padding: 20px; position: relative; }
+    /* Scroll-to-top button */
+    #topBtn {
+      display: none;
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 99;
+      background-color: #155e3b;
+      color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 12px 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    #topBtn:hover {
+      background-color: #0e3f29;
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
-  <header>
+  <header id="top">
     <h1>Iowa Family Integrity and Patient Protection Initiative</h1>
     <p>Protecting Iowa families who follow Iowa law.</p>
     <nav>
@@ -113,5 +135,25 @@
   <footer>
     <p>© 2025 Iowa Family Integrity and Patient Protection Initiative | Founded by Gina Lyn Cox</p>
   </footer>
+
+  <!-- Scroll to top button -->
+  <button onclick="topFunction()" id="topBtn" title="Back to Top">↑</button>
+
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = function() { scrollFunction(); };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
