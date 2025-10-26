@@ -64,25 +64,6 @@
     </div>
   </footer>
 
-  <script>
-    (async () => {
-      try {
-        const r = await fetch('nav.html', {cache:'no-store'});
-        const nav = document.getElementById('site-nav');
-        if (r.ok) nav.innerHTML = await r.text();
-        else nav.innerHTML = `<ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Full_Initiative.html">Initiative</a></li>
-          <li><a href="press.html">Press</a></li>
-          <li><a href="resources.html" aria-current="page">Resources</a></li>
-        </ul>`;
-      } catch {}
-      document.getElementById('yr').textContent = new Date().getFullYear();
-      const here = location.pathname.split('/').pop() || 'resources.html';
-      document.querySelectorAll('#site-nav a').forEach(a=>{
-        if (a.getAttribute('href') === here) a.setAttribute('aria-current','page');
-      });
-    })();
-  </script>
+  <script src="script.js" defer></script>
 </body>
 </html>
