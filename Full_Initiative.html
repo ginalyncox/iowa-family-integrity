@@ -6,14 +6,12 @@
   <title>Full Initiative — Iowa Family Integrity & Patient Protection Initiative</title>
   <meta name="description" content="Official full text and accessible summary of the Iowa Family Integrity & Patient Protection Initiative, including legislative findings, impairment standards, and implementation strategy." />
   <link rel="canonical" href="https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.html" />
-
   <meta property="og:title" content="Full Initiative — Iowa Family Integrity & Patient Protection Initiative" />
   <meta property="og:description" content="Impairment, not presence. A comprehensive policy framework for Iowa's medical-cannabis patient protections." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.html" />
-  <meta property="og:image" content="https://ginalyncox.github.io/iowa-family-integrity/assets/favicon.png" />
+  <meta property="og:image" content="assets/favicon.png" />
   <meta name="twitter:card" content="summary" />
-
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -75,7 +73,7 @@
       </ul>
     </section>
 
-    <!-- 1–10 Legislative Sections (unchanged content) -->
+    <!-- 1–10 legislative sections -->
     <section id="preamble" class="card section">
       <h2>1. Preamble & Findings</h2>
       <p>Iowa affirms that patients lawfully participating in the state’s medical-cannabis program, as established under the <cite>Iowa Medical Cannabidiol Act (Iowa Code § 124E)</cite>, may do so under licensed clinical supervision. Family integrity is a compelling state interest. Policy must distinguish responsible medical treatment from actual endangerment.</p>
@@ -151,7 +149,6 @@
       <p><small>Version &amp; Citation: Iowa Family Integrity &amp; Patient Protection Initiative — Draft 2025. Prepared by Gina Lyn Cox (Altoona, IA).</small></p>
     </section>
 
-    <!-- 11. Background -->
     <section id="background" class="card section">
       <h2>11. Background & Rationale</h2>
       <p>Iowa’s medical-cannabis framework, codified under <cite>Iowa Code § 124E</cite>, allows patients to access lawful therapeutic products under physician supervision. Yet, across family and juvenile courts, lawful patients have faced inconsistent treatment—sometimes penalized solely for the presence of metabolites unrelated to impairment.</p>
@@ -162,7 +159,6 @@
       <p>Clarifying these protections will reduce caseworker uncertainty, prevent due-process violations, and conserve resources by focusing attention where genuine risk exists.</p>
     </section>
 
-    <!-- 12. Implementation Pathway -->
     <section id="implementation-pathway" class="card section">
       <h2>12. Implementation Pathway & Coalition Strategy</h2>
       <p>The Initiative invites broad collaboration to ensure smooth adoption and effective application statewide. This includes legislative sponsorship, administrative coordination, and community engagement. Each stakeholder has a defined role:</p>
@@ -175,9 +171,8 @@
       </ul>
       <p>This initiative is intentionally nonpartisan and data-driven, reflecting Iowa’s values of family integrity, medical autonomy, and procedural fairness.</p>
       <p>Future updates may include educational resources, continuing legal-education modules, and interagency coordination frameworks.</p>
-      <p><strong>Next Steps:</strong> Interested parties—especially legislators and agency counsel—may contact <a href="mailto:gina.lyn.cox@gmail.com">gina.lyn.cox@gmail.com</a> to request the editable bill draft and implementation template.</p>
+      <p><strong>Next Steps:</strong> Contact <a href="mailto:gina.lyn.cox@gmail.com">gina.lyn.cox@gmail.com</a> to request the editable bill draft and implementation template.</p>
     </section>
-
   </main>
 
   <footer class="site-footer">
@@ -186,25 +181,6 @@
     </div>
   </footer>
 
-  <script>
-    (async () => {
-      try {
-        const r = await fetch('nav.html', {cache:'no-store'});
-        const nav = document.getElementById('site-nav');
-        if (r.ok) nav.innerHTML = await r.text();
-        else nav.innerHTML = `<ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Full_Initiative.html" aria-current="page">Initiative</a></li>
-          <li><a href="press.html">Press</a></li>
-          <li><a href="resources.html">Resources</a></li>
-        </ul>`;
-      } catch {}
-      document.getElementById('yr').textContent = new Date().getFullYear();
-      const here = location.pathname.split('/').pop() || 'Full_Initiative.html';
-      document.querySelectorAll('#site-nav a').forEach(a=>{
-        if (a.getAttribute('href') === here) a.setAttribute('aria-current','page');
-      });
-    })();
-  </script>
+  <script src="script.js" defer></script>
 </body>
 </html>
