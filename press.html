@@ -10,63 +10,13 @@
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #222; }
-    header {
-      background: #155e3b; color: #fff; padding: 20px 40px; text-align: center;
-    }
-    header h1 {
-      color: #fff;
-      font-weight: 800;
-      font-size: 2.2em;
-      letter-spacing: 0.5px;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.45);
-      margin: 0 0 6px 0;
-    }
-    nav ul { display: flex; justify-content: center; list-style: none; padding: 0; margin: 0; flex-wrap: wrap; }
-    nav ul li { margin: 0 15px; }
-    nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
-    main { padding: 40px; max-width: 900px; margin: auto; }
-    h1, h2, h3 { color: #155e3b; }
-    .btn { background: #155e3b; color: #fff; padding: 10px 20px; border: none; text-decoration: none; border-radius: 6px; display: inline-flex; align-items: center; gap: 8px; transition: background 0.3s ease; }
-    .btn:hover { background: #0e3f29; }
-    .btn .icon { font-size: 1.2em; }
-    .grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    @media (min-width: 800px) { .grid { grid-template-columns: 1fr 1fr; } }
-    .card { border: 1px solid #e0e0e0; border-radius: 10px; padding: 20px; background: #fff; }
-    footer { background: #333; color: #fff; text-align: center; padding: 20px; margin-top: 40px; position: relative; }
-    .muted { color: #666; font-size: 0.95em; }
-    .crumbs { margin: 16px 0 0; font-size: 0.95em; }
-    .crumbs a { color: #155e3b; text-decoration: none; }
-    /* Scroll-to-top button */
-    #topBtn {
-      display: none;
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      z-index: 99;
-      background-color: #155e3b;
-      color: white;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 12px 15px;
-      border-radius: 50%;
-      font-size: 20px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-    #topBtn:hover {
-      background-color: #0e3f29;
-      transform: scale(1.1);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header id="top">
     <h1>Press & Media</h1>
     <p>Resources for reporters, editors, and producers.</p>
-    <nav>
+    <nav aria-label="Press navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#quick-facts">Quick Facts</a></li>
@@ -79,9 +29,9 @@
   </header>
 
   <main>
-    <section id="quick-facts" class="grid">
+    <section id="quick-facts" class="grid" aria-labelledby="facts-title">
       <div class="card">
-        <h2>Quick Facts</h2>
+        <h2 id="facts-title">Quick Facts</h2>
         <ul>
           <li><strong>Name:</strong> Iowa Family Integrity and Patient Protection Initiative</li>
           <li><strong>Founder:</strong> Gina Lyn Cox (Altoona, Iowa)</li>
@@ -101,16 +51,16 @@
       </div>
     </section>
 
-    <section id="summary" class="card">
-      <h2>150-Word Summary</h2>
+    <section id="summary" class="card" aria-labelledby="summary-title">
+      <h2 id="summary-title">150-Word Summary</h2>
       <p>
         The Iowa Family Integrity and Patient Protection Initiative is a citizen-authored policy effort ensuring Iowans who lawfully participate in the state’s medical-cannabis program are not penalized in custody, foster, or adoption decisions. The initiative aligns family-law practice with Iowa Code §124E by clarifying that evidence of actual impairment—not the presence of THC or medical-cardholder status—should guide safety determinations. The framework includes a bill proposal (the Family Integrity and Medical Cannabis Patient Protection Act), administrative guidance for Iowa HHS under Iowa Code §17A.7, and a judicial reminder for consistent standards statewide. The initiative protects pregnant and breastfeeding patients through explicit perinatal and postnatal provisions, and it safeguards newborn cases from toxicology-only assumptions. Founded by Gina Lyn Cox of Altoona, the project seeks bipartisan support to preserve family unity, protect patient rights, and establish Iowa as a Midwestern leader in evidence-based, compassion-driven policy.
       </p>
     </section>
 
-    <section id="downloads" class="grid">
+    <section id="downloads" class="grid" aria-labelledby="downloads-title">
       <div class="card">
-        <h2>Downloadable Assets</h2>
+        <h2 id="downloads-title">Downloadable Assets</h2>
         <ul>
           <li><a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf" target="_blank" rel="noopener noreferrer"><span class="icon">📄</span>Policy Packet (PDF)</a></li>
           <li><a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf" target="_blank" rel="noopener noreferrer"><span class="icon">📄</span>Full Initiative (PDF)</a></li>
@@ -125,35 +75,36 @@
       </div>
     </section>
 
-    <section id="contact" class="card">
-      <h2>Press Contact</h2>
+    <section id="contact" class="card" aria-labelledby="contact-title">
+      <h2 id="contact-title">Press Contact</h2>
       <p>
-        <strong>Media Inquiries:</strong> <a href="mailto:gina.lyn.cox@gmail.com">gina.lyn.cox@gmail.com</a><br />
+        <strong>Media Inquiries:</strong>
+        <a class="btn" href="mailto:gina.lyn.cox@gmail.com?subject=Press%20Inquiry%20%E2%80%94%20Iowa%20Family%20Integrity" aria-label="Email media contact">
+          <span class="icon">✉️</span>gina.lyn.cox@gmail.com
+        </a><br />
         Please include outlet, deadline, and interview format (phone/Zoom/email).
       </p>
       <p class="muted">Attribution: © 2025 Gina Lyn Cox — Licensed under CC BY-NC 4.0</p>
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p>© 2025 Iowa Family Integrity and Patient Protection Initiative | Founded by Gina Lyn Cox</p>
   </footer>
 
   <!-- Scroll to top button -->
-  <button onclick="topFunction()" id="topBtn" title="Back to Top">↑</button>
+  <button onclick="topFunction()" id="topBtn" title="Back to Top" aria-label="Back to Top">↑</button>
 
   <script>
+    // Scroll-to-top logic
     const topBtn = document.getElementById("topBtn");
-    window.onscroll = function() { scrollFunction(); };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    window.addEventListener("scroll", function() {
+      if (document.documentElement.scrollTop > 200 || document.body.scrollTop > 200) {
         topBtn.style.display = "block";
       } else {
         topBtn.style.display = "none";
       }
-    }
-
+    });
     function topFunction() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
