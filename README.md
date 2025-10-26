@@ -19,6 +19,7 @@ This project promotes *patient safety, family stability, and respect for Iowa’
 | **Policy Packet** | Comprehensive summary and outreach materials | [Download PDF](https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf) |
 | **Full Initiative Document** | Complete proposal and mission statement | [Read PDF](https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf) |
 | **Legislative Draft** | Bill-style draft for Iowa General Assembly review | [View PDF](https://ginalyncox.github.io/iowa-family-integrity/Legislative_Draft.pdf) |
+| **Press Kit (ZIP)** | All PDFs plus a one-pager and press release template | [Download ZIP](https://ginalyncox.github.io/iowa-family-integrity/iowa-family-integrity-press-kit.zip) |
 
 ---
 
@@ -41,9 +42,10 @@ If your organization or practice supports evidence-based reform and family integ
 ---
 
 ## 💬 How to Support
-- 📥 **Share Your Story:** [Email](mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story)  
+- 📥 **Share Your Story:** [Email Gina](mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story)  
 - 🏛️ **Contact Your Legislator:** Forward the Policy Packet and Legislative Draft.  
 - 🌐 **Website:** [View Initiative Site](https://ginalyncox.github.io/iowa-family-integrity/)  
+- 📰 **Press Page:** [Media Resources](https://ginalyncox.github.io/iowa-family-integrity/press.html)
 
 ---
 
