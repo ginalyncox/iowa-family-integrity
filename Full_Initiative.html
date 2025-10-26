@@ -64,7 +64,7 @@
       </dl>
     </section>
 
-    <!-- Table of Contents (matches PDF headings) -->
+    <!-- TOC -->
     <section class="card section" aria-labelledby="toc-title">
       <h2 id="toc-title">Table of Contents</h2>
       <ul class="ul-clean" id="toc">
@@ -81,7 +81,7 @@
       </ul>
     </section>
 
-    <!-- BODY (section texts aligned to PDF structure) -->
+    <!-- BODY (aligned to PDF structure) -->
     <section id="preamble" class="card section" aria-labelledby="preamble-title">
       <h2 id="preamble-title">1. Preamble & Findings</h2>
       <p>
@@ -176,7 +176,6 @@
     </div>
   </footer>
 
-  <!-- Helpers: nav include + current year + mark current link + file version stamps -->
   <script>
     (async () => {
       try {
@@ -201,17 +200,12 @@
         if(a.getAttribute('href')===here) a.setAttribute('aria-current','page');
       });
 
-      // Show "Last updated" from server headers (GitHub Pages usually sets Last-Modified)
+      // Optional: show "Last updated" stamps from HTTP headers when available
       async function lastMod(url) {
-        try {
-          const r = await fetch(url, { method: 'HEAD', cache: 'no-store' });
-          return r.headers.get('last-modified') || null;
-        } catch { return null; }
+        try { const r = await fetch(url, { method: 'HEAD', cache: 'no-store' }); return r.headers.get('last-modified'); }
+        catch { return null; }
       }
-      const [pdfLM, htmlLM] = await Promise.all([
-        lastMod('Full_Initiative.pdf'),
-        lastMod('Full_Initiative.html')
-      ]);
+      const [pdfLM, htmlLM] = await Promise.all([lastMod('Full_Initiative.pdf'), lastMod('Full_Initiative.html')]);
       const v = [];
       if (pdfLM) v.push(`PDF: ${new Date(pdfLM).toLocaleString()}`);
       if (htmlLM) v.push(`HTML: ${new Date(htmlLM).toLocaleString()}`);
