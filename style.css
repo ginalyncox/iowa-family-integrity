@@ -1,184 +1,179 @@
-/* ============================
-   Iowa Family Integrity & Patient Protection Initiative
-   Shared Site Stylesheet
-   ============================ */
+/* ==============================
+   Iowa Family Integrity – Global
+   ============================== */
 
-/* Base */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  color: #222;
+:root{
+  --green:#155e3b;
+  --green-dark:#0e3f29;
+  --ink:#222;
+  --ink-muted:#666;
+  --bg:#fff;
+  --bg-tint:#e6f4ec;
+  --border:#e0e0e0;
+
+  --radius:10px;
+  --shadow:0 2px 6px rgba(0,0,0,.25);
 }
 
-/* Header */
-header {
-  background: #155e3b;
-  color: #fff;
-  padding: 20px 40px;
-  text-align: center;
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-header h1 {
-  color: #fff;
-  font-weight: 800;
-  font-size: 2.2em;
-  letter-spacing: 0.5px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.45);
-  margin: 0 0 6px 0;
-}
+img{max-width:100%;height:auto}
+a{color:var(--green);text-decoration:none}
+a:hover{text-decoration:underline}
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
+/* ==============================
+   Layout
+   ============================== */
 
-nav ul li {
-  margin: 0 15px;
+header{
+  background:var(--green);
+  color:#fff;
+  text-align:center;
+  padding:20px 40px;
 }
+header h1{
+  margin:0 0 6px 0;
+  color:#fff;
+  font-weight:800;
+  font-size:2.2em;
+  letter-spacing:.5px;
+  text-shadow:1px 1px 3px rgba(0,0,0,.45);
+}
+header p{margin:.25rem 0 0 0}
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+nav ul{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  list-style:none;
+  padding:0;
+  margin:14px 0 0 0;
+  flex-wrap:wrap;
 }
-
-nav ul li a:hover {
-  text-decoration: underline;
+nav ul li a{
+  color:#fff;
+  font-weight:bold;
 }
+nav ul li a:hover{text-decoration:underline}
 
 /* Sections */
-section {
-  padding: 40px;
-  max-width: 900px;
-  margin: auto;
+section{
+  padding:40px;
+  max-width:900px;
+  margin:auto;
 }
+h1,h2,h3{color:var(--green);margin-top:0}
 
-h1, h2, h3 {
-  color: #155e3b;
+/* Hero */
+.hero{
+  text-align:center;
+  background:var(--bg-tint);
+  padding:60px 20px;
 }
-
-.hero {
-  text-align: center;
-  background: #e6f4ec;
-  padding: 60px 20px;
-}
-
-.hero h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2em;
-}
+.hero h1{font-size:2em;margin-bottom:10px}
+.hero p{font-size:1.15em}
 
 /* Buttons */
-.btn {
-  background: #155e3b;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  text-decoration: none;
-  border-radius: 6px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: background 0.3s ease;
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:var(--green);
+  color:#fff;
+  border:none;
+  border-radius:6px;
+  padding:10px 20px;
+  text-decoration:none;
+  transition:background .3s ease, transform .15s ease;
+  cursor:pointer;
+  user-select:none;
+}
+.btn:hover{background:var(--green-dark);text-decoration:none}
+.btn:active{transform:translateY(1px)}
+.btn .icon{font-size:1.2em;line-height:1}
+a.btn[aria-label^="Email"]{white-space:nowrap}
+
+/* Cards & Grid (press page) */
+.grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:24px;
+}
+@media (min-width:800px){
+  .grid{grid-template-columns:1fr 1fr}
+}
+.card{
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:20px;
+  background:#fff;
 }
 
-.btn:hover {
-  background: #0e3f29;
-}
+/* Muted helper text */
+.muted{color:var(--ink-muted);font-size:.95em}
 
-.btn .icon {
-  font-size: 1.2em;
-}
+/* Breadcrumbs (press head) */
+.crumbs{margin:16px 0 0;font-size:.95em}
+.crumbs a{color:#fff;text-decoration:underline}
 
-/* Accessibility + Email focus */
-a.btn[aria-label^="Email"] {
-  white-space: nowrap;
-}
+/* Lists inside sections */
+section ul{padding-left:20px}
+section li{margin:.35rem 0}
 
-a.btn:focus {
-  outline: 3px solid #0e3f29;
-  outline-offset: 2px;
-}
-
-/* Grid cards (press page) */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-
-@media (min-width: 800px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 20px;
-  background: #fff;
-}
+/* Contact block */
+#contact p{margin:.2rem 0 0}
 
 /* Footer */
-footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  position: relative;
+footer{
+  background:#333;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  position:relative;
 }
 
-/* Scroll-to-top button */
-#topBtn {
-  display: none;
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  z-index: 99;
-  background-color: #155e3b;
-  color: white;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 12px 15px;
-  border-radius: 50%;
-  font-size: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+/* Scroll-to-top button (shared) */
+#topBtn{
+  display:none;
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  z-index:99;
+  background:var(--green);
+  color:#fff;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  padding:12px 15px;
+  border-radius:50%;
+  font-size:20px;
+  box-shadow:var(--shadow);
+  transition:background .3s ease, transform .2s ease;
+}
+#topBtn:hover{
+  background:var(--green-dark);
+  transform:scale(1.1);
 }
 
-#topBtn:hover {
-  background-color: #0e3f29;
-  transform: scale(1.1);
+/* Accessibility focus */
+:focus-visible{
+  outline:3px solid var(--green-dark);
+  outline-offset:2px;
 }
 
-/* Utility */
-.muted {
-  color: #666;
-  font-size: 0.95em;
-}
-
-.crumbs {
-  margin: 16px 0 0;
-  font-size: 0.95em;
-}
-
-.crumbs a {
-  color: #155e3b;
-  text-decoration: none;
-}
-
-.crumbs a:hover {
-  text-decoration: underline;
+/* Print niceties for PDFs/press page references */
+@media print{
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:.9em}
+  header, footer, #topBtn{display:none !important}
+  section{padding:20px}
 }
