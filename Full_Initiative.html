@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Full Initiative — Iowa Family Integrity & Patient Protection Initiative</title>
-  <meta name="description" content="Full text of the Iowa Family Integrity & Patient Protection Initiative with definitions, standards, and implementation framework." />
+  <meta name="description" content="Official initiative text, embedded PDF, and synchronized executive summary for quick reading." />
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,39 +22,49 @@
 
   <main id="content" class="container stack">
     <!-- Hero -->
-    <section class="hero section" aria-labelledby="fi-hero">
+    <section class="hero section" aria-labelledby="fi-hero" aria-describedby="fi-desc">
       <span class="pill">Iowa-wide • Legislative + HHS + Judicial</span>
       <h1 id="fi-hero">Full Initiative</h1>
-      <p>
-        This page presents the readable HTML of the Initiative. For citations, pagination, or printing, use the official PDF.
+      <p id="fi-desc">
+        The official, citable version is the PDF below. The HTML summary that follows mirrors the same sections for quick reading.
       </p>
       <div class="btn-row" role="group" aria-label="Primary actions">
         <a class="btn primary" href="Full_Initiative.pdf">Download Official PDF</a>
         <a class="btn ghost" href="Policy_Packet.pdf">Policy Packet (PDF)</a>
-        <a class="btn ghost" href="press.html">Press Kit</a>
+        <a class="btn ghost" href="Legislative_Draft.pdf">Legislative Draft (PDF)</a>
       </div>
+      <small id="version-line">Loading file versions…</small>
     </section>
 
-    <!-- Quick summary (definition list) -->
+    <!-- Embedded PDF -->
+    <section class="card section" aria-labelledby="pdf-view-title">
+      <h2 id="pdf-view-title">Official PDF (Embedded View)</h2>
+      <p>If the viewer doesn’t load, use the download button above.</p>
+      <object data="Full_Initiative.pdf#view=FitH" type="application/pdf" width="100%" height="800" aria-label="Full Initiative PDF">
+        <iframe src="Full_Initiative.pdf#view=FitH" width="100%" height="800" title="Full Initiative PDF"></iframe>
+      </object>
+    </section>
+
+    <!-- Executive Summary (HTML mirror) -->
     <section class="card section" aria-labelledby="summary">
-      <h2 id="summary">At-a-Glance Summary</h2>
+      <h2 id="summary">Executive Summary (HTML)</h2>
       <dl class="facts">
         <div class="fact">
           <dt>Core Standard</dt>
-          <dd><strong>Impairment, not presence</strong> of metabolites, is the valid safety test in child-welfare contexts.</dd>
+          <dd><strong>Impairment— not presence</strong> of cannabinoids/metabolites—governs safety determinations in child-welfare contexts.</dd>
         </div>
         <div class="fact">
           <dt>Patient Status</dt>
-          <dd>Lawful medical-cannabis participation may not be treated as neglect, abuse, or unfitness per se.</dd>
+          <dd>Lawful participation in Iowa’s medical-cannabis program may not be treated as neglect, abuse, or unfitness <em>per se</em>.</dd>
         </div>
         <div class="fact">
           <dt>Scope</dt>
-          <dd>Legislative clarification, Iowa HHS interpretive guidance, and judicial education.</dd>
+          <dd>Legislative clarification, Iowa HHS interpretive guidance (Iowa Code §17A.7), judicial education, and perinatal/postnatal safeguards.</dd>
         </div>
       </dl>
     </section>
 
-    <!-- TOC -->
+    <!-- Table of Contents (matches PDF headings) -->
     <section class="card section" aria-labelledby="toc-title">
       <h2 id="toc-title">Table of Contents</h2>
       <ul class="ul-clean" id="toc">
@@ -61,103 +72,101 @@
         <li><a href="#definitions">2. Definitions</a></li>
         <li><a href="#impairment-standard">3. Impairment Standard</a></li>
         <li><a href="#prohibited-practices">4. Prohibited Practices</a></li>
-        <li><a href="#hhs-guidance">5. Iowa HHS Guidance (Iowa Code § 17A.7)</a></li>
-        <li><a href="#judicial-education">6. Judicial Education & Bench Memo</a></li>
-        <li><a href="#implementation">7. Implementation & Effective Date</a></li>
-        <li><a href="#severability">8. Severability</a></li>
-        <li><a href="#contact">9. Contact</a></li>
+        <li><a href="#perinatal-protections">5. Perinatal & Postnatal Safeguards</a></li>
+        <li><a href="#hhs-guidance">6. Iowa HHS Guidance (Iowa Code § 17A.7)</a></li>
+        <li><a href="#judicial-education">7. Judicial Education & Bench Memo</a></li>
+        <li><a href="#implementation">8. Implementation & Effective Date</a></li>
+        <li><a href="#severability">9. Severability</a></li>
+        <li><a href="#contact">10. Contact</a></li>
       </ul>
     </section>
 
-    <!-- BODY -->
-
+    <!-- BODY (section texts aligned to PDF structure) -->
     <section id="preamble" class="card section" aria-labelledby="preamble-title">
       <h2 id="preamble-title">1. Preamble & Findings</h2>
       <p>
-        The State of Iowa recognizes that patients lawfully participating in the state’s medical-cannabis program may do so
-        under the supervision of a licensed healthcare professional. Family integrity is a compelling state interest: policy must
-        distinguish between responsible, lawful treatment and actual endangerment. Ambiguity around toxicology results has led to
-        inconsistent outcomes for Iowa families. This Initiative clarifies standards so that casework and judicial determinations
-        reflect evidence-based assessments of safety and impairment.
+        Iowa affirms that patients lawfully participating in the state’s medical-cannabis program may do so under licensed clinical supervision.
+        Family integrity is a compelling state interest. Policy must distinguish responsible treatment from actual endangerment.
+        This Initiative clarifies standards so that assessments and judicial determinations reflect evidence-based evaluations of
+        <em>impairment</em>, not metabolite detection windows.
       </p>
     </section>
 
     <section id="definitions" class="card section" aria-labelledby="definitions-title">
       <h2 id="definitions-title">2. Definitions</h2>
       <p><strong>(A) “Lawful patient.”</strong> An individual registered or otherwise authorized under Iowa’s medical-cannabis program.</p>
-      <p><strong>(B) “Presence.”</strong> Detection of cannabinoids or metabolites in a biological specimen without accompanying evidence of functional impairment.</p>
-      <p><strong>(C) “Impairment.”</strong> Observable, articulable diminution in a caregiver’s capacity to provide safe care (e.g., deficits in attention, coordination, judgment) that is temporally related to use.</p>
-      <p><strong>(D) “Child-welfare proceeding.”</strong> Includes intake, assessment, removal decisions, safety planning, adjudication, disposition, review, and permanency hearings.</p>
+      <p><strong>(B) “Presence.”</strong> Detection of cannabinoids/metabolites without accompanying evidence of functional impairment.</p>
+      <p><strong>(C) “Impairment.”</strong> Observable, articulable diminution in a caregiver’s capacity to provide safe care (e.g., attention, coordination, judgment) temporally related to use.</p>
+      <p><strong>(D) “Child-welfare proceeding.”</strong> Intake, assessment, removal, safety planning, adjudication, disposition, review, and permanency hearings.</p>
     </section>
 
     <section id="impairment-standard" class="card section" aria-labelledby="impairment-title">
       <h2 id="impairment-title">3. Impairment Standard</h2>
-      <p><strong>(A)</strong> In child-welfare proceedings, lawful patient status and the mere presence of cannabinoids or metabolites shall not, standing alone, be grounds to find neglect, abuse, or unfitness.</p>
-      <p><strong>(B)</strong> Safety determinations must rely on <em>objective evidence of impairment</em>, including contemporaneous observations, performance-based indicators, credible collateral information, and, when applicable, appropriately interpreted toxicology that correlates with functional deficits.</p>
-      <p><strong>(C)</strong> When toxicology is considered, decision-makers shall weigh specimen type, detection windows, cutoff thresholds, timing relative to alleged incidents, and scientific limitations connecting levels to functional impairment.</p>
+      <p><strong>(A)</strong> Lawful patient status and metabolite presence shall not, standing alone, constitute neglect, abuse, or unfitness.</p>
+      <p><strong>(B)</strong> Safety determinations must rely on objective evidence of impairment: contemporaneous observations, performance-based indicators,
+         credible collateral information, and when applicable, toxicology interpreted in relation to functional deficits.</p>
+      <p><strong>(C)</strong> When considering toxicology, weigh specimen type, detection window, cutoff thresholds, timing, and limits connecting levels to functional impact.</p>
     </section>
 
     <section id="prohibited-practices" class="card section" aria-labelledby="prohibited-title">
       <h2 id="prohibited-title">4. Prohibited Practices</h2>
       <ul class="ul-clean">
-        <li>Per se findings of neglect, abuse, or unfitness based solely on lawful patient status or metabolite presence.</li>
-        <li>Safety plans, removals, or supervised visitation orders grounded solely in toxicology results absent impairment evidence.</li>
-        <li>Disparate treatment of lawful medical-cannabis patients versus patients using other prescribed medications without impairment evidence.</li>
+        <li>Per se findings of neglect/abuse/unfitness based solely on lawful patient status or metabolite presence.</li>
+        <li>Safety plans, removals, or supervised visitation orders grounded solely in toxicology absent impairment evidence.</li>
+        <li>Disparate treatment of lawful medical-cannabis patients relative to other prescribed medications absent impairment evidence.</li>
       </ul>
+    </section>
+
+    <section id="perinatal-protections" class="card section" aria-labelledby="perinatal-title">
+      <h2 id="perinatal-title">5. Perinatal & Postnatal Safeguards</h2>
+      <p>
+        Screening, reporting, and safety planning in perinatal/postnatal contexts shall be guided by impairment and objective safety risk.
+        Positive toxicology alone—maternal or neonatal—shall not be treated as neglect, abuse, or unfitness absent corroborating evidence of impairment or harm.
+        Care coordination should prioritize informed consent, lactation/pediatric guidance, and non-punitive supports.
+      </p>
     </section>
 
     <section id="hhs-guidance" class="card section" aria-labelledby="hhs-title">
-      <h2 id="hhs-title">5. Iowa HHS Guidance (Iowa Code § 17A.7)</h2>
+      <h2 id="hhs-title">6. Iowa HHS Guidance (Iowa Code § 17A.7)</h2>
       <p><strong>(A)</strong> Iowa HHS shall issue interpretive guidance applying the Impairment Standard to intake, assessment, and case management. Guidance shall:</p>
       <ul class="ul-clean">
-        <li>Define documentation of observable impairment indicators.</li>
-        <li>Address appropriate use and limits of toxicology in family assessments.</li>
-        <li>Provide sample case-note language and safety-plan templates aligned with this standard.</li>
+        <li>Define documentation of observable impairment indicators;</li>
+        <li>Address appropriate use/limits of toxicology in family assessments;</li>
+        <li>Provide sample case-note language and safety-plan templates aligned with this standard;</li>
         <li>Establish training and quality-assurance review for statewide consistency.</li>
       </ul>
-      <p><strong>(B)</strong> Guidance should be reviewed periodically and updated to reflect current science and Iowa law.</p>
+      <p><strong>(B)</strong> Guidance is reviewed periodically and updated to reflect current science and Iowa law.</p>
     </section>
 
     <section id="judicial-education" class="card section" aria-labelledby="judicial-title">
-      <h2 id="judicial-title">6. Judicial Education & Bench Memo</h2>
+      <h2 id="judicial-title">7. Judicial Education & Bench Memo</h2>
       <p>
         The Judicial Branch should circulate a concise bench memo summarizing the Impairment Standard, evidentiary considerations,
-        and appropriate weighting of toxicology. The memo should emphasize that cannabinoids’ detection windows complicate
-        inferences about recent use and functional impact, and that impairment—not presence—controls.
+        and appropriate weighting of toxicology. Emphasize that detection windows complicate inferences about recent use and functional impact;
+        <strong>impairment—not presence—controls</strong>.
       </p>
     </section>
 
     <section id="implementation" class="card section" aria-labelledby="implementation-title">
-      <h2 id="implementation-title">7. Implementation & Effective Date</h2>
+      <h2 id="implementation-title">8. Implementation & Effective Date</h2>
       <p><strong>(A)</strong> Legislative provisions take effect on the first day of the second month following enactment.</p>
-      <p><strong>(B)</strong> Iowa HHS shall publish interpretive guidance within 120 days of enactment, with training to follow within 180 days.</p>
-      <p><strong>(C)</strong> Existing policies must be conformed to this standard upon the first regular update cycle after the effective date.</p>
+      <p><strong>(B)</strong> Iowa HHS publishes interpretive guidance within 120 days; training within 180 days.</p>
+      <p><strong>(C)</strong> Existing policies conform on the next regular update cycle after the effective date.</p>
     </section>
 
     <section id="severability" class="card section" aria-labelledby="severability-title">
-      <h2 id="severability-title">8. Severability</h2>
-      <p>
-        If any provision or application of this Initiative is held invalid, the remainder and its applications shall not be affected.
-      </p>
+      <h2 id="severability-title">9. Severability</h2>
+      <p>If any provision or application is held invalid, the remainder and other applications are not affected.</p>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="card section" aria-labelledby="contact-title">
-      <h2 id="contact-title">9. Contact</h2>
+      <h2 id="contact-title">10. Contact</h2>
       <p>Interviews, data requests, or draft language review:</p>
       <ul class="ul-clean">
         <li><strong>Press:</strong> gina.lyn.cox@gmail.com</li>
         <li><strong>Founder:</strong> Gina Lyn Cox</li>
       </ul>
-    </section>
-
-    <!-- PDF notice -->
-    <section class="card section" aria-labelledby="pdf-note">
-      <h2 id="pdf-note">Official PDF</h2>
-      <p>
-        For the official, paginated version suitable for download, citation, and printing, use:
-        <a href="Full_Initiative.pdf">Full_Initiative.pdf</a>.
-      </p>
     </section>
   </main>
 
@@ -167,7 +176,7 @@
     </div>
   </footer>
 
-  <!-- Helpers: nav include + current year + mark current link -->
+  <!-- Helpers: nav include + current year + mark current link + file version stamps -->
   <script>
     (async () => {
       try {
@@ -183,13 +192,31 @@
           </ul>`;
         }
       } catch {}
+
       document.getElementById('yr').textContent = new Date().getFullYear();
 
-      // Mark current page in injected nav (in case of static hosting quirks)
+      // Mark current page
       const here = location.pathname.split('/').pop() || 'Full_Initiative.html';
       document.querySelectorAll('#site-nav a').forEach(a=>{
         if(a.getAttribute('href')===here) a.setAttribute('aria-current','page');
       });
+
+      // Show "Last updated" from server headers (GitHub Pages usually sets Last-Modified)
+      async function lastMod(url) {
+        try {
+          const r = await fetch(url, { method: 'HEAD', cache: 'no-store' });
+          return r.headers.get('last-modified') || null;
+        } catch { return null; }
+      }
+      const [pdfLM, htmlLM] = await Promise.all([
+        lastMod('Full_Initiative.pdf'),
+        lastMod('Full_Initiative.html')
+      ]);
+      const v = [];
+      if (pdfLM) v.push(`PDF: ${new Date(pdfLM).toLocaleString()}`);
+      if (htmlLM) v.push(`HTML: ${new Date(htmlLM).toLocaleString()}`);
+      const line = document.getElementById('version-line');
+      if (line) line.textContent = v.length ? `Last updated — ${v.join('  •  ')}` : ' ';
     })();
   </script>
 </body>
