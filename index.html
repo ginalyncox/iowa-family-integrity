@@ -7,68 +7,13 @@
   <meta name="description" content="Protecting Iowa families who follow Iowa's medical cannabis law. Policy, legislative draft, and press resources." />
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #222; }
-    header {
-      background: #155e3b;
-      color: #fff;
-      padding: 20px 40px;
-      text-align: center;
-    }
-    header h1 {
-      color: #fff;
-      font-weight: 800;
-      font-size: 2.2em;
-      letter-spacing: 0.5px;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.45);
-      margin: 0 0 6px 0;
-    }
-    nav ul { display: flex; justify-content: center; list-style: none; padding: 0; margin: 0; flex-wrap: wrap; }
-    nav ul li { margin: 0 15px; }
-    nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
-    section { padding: 40px; max-width: 900px; margin: auto; }
-    h1, h2, h3 { color: #155e3b; }
-    .hero { text-align: center; background: #e6f4ec; padding: 60px 20px; }
-    .hero h1 { font-size: 2em; margin-bottom: 10px; }
-    .hero p { font-size: 1.2em; }
-    .btn {
-      background: #155e3b; color: #fff; padding: 10px 20px;
-      border: none; text-decoration: none; border-radius: 6px;
-      display: inline-flex; align-items: center; gap: 8px;
-      transition: background 0.3s ease;
-    }
-    .btn:hover { background: #0e3f29; }
-    .btn .icon { font-size: 1.2em; }
-    footer { background: #333; color: #fff; text-align: center; padding: 20px; position: relative; }
-    /* Scroll-to-top button */
-    #topBtn {
-      display: none;
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      z-index: 99;
-      background-color: #155e3b;
-      color: white;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 12px 15px;
-      border-radius: 50%;
-      font-size: 20px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-    #topBtn:hover {
-      background-color: #0e3f29;
-      transform: scale(1.1);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header id="top">
     <h1>Iowa Family Integrity and Patient Protection Initiative</h1>
     <p>Protecting Iowa families who follow Iowa law.</p>
-    <nav>
+    <nav aria-label="Primary">
       <ul>
         <li><a href="#initiative">The Initiative</a></li>
         <li><a href="#legislation">Legislation</a></li>
@@ -80,45 +25,45 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>No Iowa family should lose their children for following Iowa’s medical law.</h1>
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">No Iowa family should lose their children for following Iowa’s medical law.</h1>
     <p>This citizen-led initiative, founded by <strong>Gina Lyn Cox of Altoona</strong>, aligns Iowa’s medical-cannabis program with child-welfare policy to ensure lawful patients are never punished for their medicine.</p>
-    <a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf" target="_blank" rel="noopener noreferrer">
+    <a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Policy_Packet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download Policy Packet PDF">
       <span class="icon">📄</span>Download Policy Packet
     </a>
   </section>
 
-  <section id="initiative">
-    <h2>The Initiative</h2>
+  <section id="initiative" aria-labelledby="initiative-title">
+    <h2 id="initiative-title">The Initiative</h2>
     <p>The Iowa Family Integrity and Patient Protection Initiative promotes patient safety, family stability, and respect for state sovereignty. We advocate for policies that protect registered medical-cannabis patients from being penalized in custody, foster, or adoption cases.</p>
-    <a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf" target="_blank" rel="noopener noreferrer">
+    <a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Full_Initiative.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read the Full Initiative Document PDF">
       <span class="icon">📄</span>Read the Full Initiative Document
     </a>
   </section>
 
-  <section id="legislation">
-    <h2>Legislative Reform</h2>
+  <section id="legislation" aria-labelledby="legislation-title">
+    <h2 id="legislation-title">Legislative Reform</h2>
     <p>The <em>Family Integrity and Medical Cannabis Patient Protection Act</em> provides clear protections for Iowa families by ensuring medical-cardholder status cannot be used as grounds for disqualification in parental or foster eligibility decisions.</p>
     <ul>
       <li>Patient Rights Clause</li>
       <li>Newborn and Infant Exposure Clause</li>
       <li>Perinatal and Postnatal Care Clause</li>
     </ul>
-    <a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Legislative_Draft.pdf" target="_blank" rel="noopener noreferrer">
+    <a class="btn" href="https://ginalyncox.github.io/iowa-family-integrity/Legislative_Draft.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Legislative Draft PDF">
       <span class="icon">📄</span>View Legislative Draft PDF
     </a>
   </section>
 
-  <section id="stories">
-    <h2>Real Iowa Families</h2>
+  <section id="stories" aria-labelledby="stories-title">
+    <h2 id="stories-title">Real Iowa Families</h2>
     <p><strong>V.L. (Iowa)</strong> – A grandmother denied placement despite full compliance and clean background, due solely to her medical-cannabis card. Her story inspired the creation of this initiative.</p>
-    <a class="btn" href="mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story">
+    <a class="btn" href="mailto:gina.lyn.cox@gmail.com?subject=Share%20Your%20Story" aria-label="Email to share your story">
       <span class="icon">✉️</span>Share Your Story
     </a>
   </section>
 
-  <section id="resources">
-    <h2>Resources</h2>
+  <section id="resources" aria-labelledby="resources-title">
+    <h2 id="resources-title">Resources</h2>
     <ul>
       <li><a href="https://www.legis.iowa.gov/docs/code/124E.pdf" target="_blank" rel="noopener noreferrer">Iowa Code §124E: Medical Cannabidiol Program</a></li>
       <li><a href="https://norml.org/" target="_blank" rel="noopener noreferrer">NORML – National Organization for the Reform of Marijuana Laws</a></li>
@@ -127,30 +72,32 @@
     </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><strong>Gina Lyn Cox</strong><br>Altoona, Iowa<br>Email: <a href="mailto:gina.lyn.cox@gmail.com">gina.lyn.cox@gmail.com</a></p>
+  <section id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contact</h2>
+    <p><strong>Gina Lyn Cox</strong><br>Altoona, Iowa<br>
+      Email: <a class="btn" href="mailto:gina.lyn.cox@gmail.com?subject=Iowa%20Family%20Integrity%20Inquiry" aria-label="Email Gina Lyn Cox">
+        <span class="icon">✉️</span>gina.lyn.cox@gmail.com
+      </a>
+    </p>
   </section>
 
-  <footer>
+  <footer role="contentinfo">
     <p>© 2025 Iowa Family Integrity and Patient Protection Initiative | Founded by Gina Lyn Cox</p>
   </footer>
 
   <!-- Scroll to top button -->
-  <button onclick="topFunction()" id="topBtn" title="Back to Top">↑</button>
+  <button onclick="topFunction()" id="topBtn" title="Back to Top" aria-label="Back to Top">↑</button>
 
   <script>
+    // Scroll-to-top logic
     const topBtn = document.getElementById("topBtn");
-    window.onscroll = function() { scrollFunction(); };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    window.addEventListener("scroll", function() {
+      if (document.documentElement.scrollTop > 200 || document.body.scrollTop > 200) {
         topBtn.style.display = "block";
       } else {
         topBtn.style.display = "none";
       }
-    }
-
+    });
     function topFunction() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
