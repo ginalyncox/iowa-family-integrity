@@ -1,57 +1,76 @@
-// ======================================================
-//  Iowa Family Integrity — Site Script
-// ======================================================
+/* Shared behavior: nav include, scroll-compact header, a11y polish */
+(function () {
+  const $ = (s, c=document) => c.querySelector(s);
+  const $$ = (s, c=document) => Array.from(c.querySelectorAll(s));
 
-// Confirmation in dev console (non-intrusive)
-console.log("%c✅ Iowa Family Integrity site scripts loaded successfully!", "color:#155e3b;font-weight:bold;");
+  document.documentElement.classList.add('js');
 
-/* ======================================================
-   Load partials (nav.html)
-   ------------------------------------------------------ */
-(function includePartials(){
-  const host = document.querySelectorAll("[data-include]");
-  host.forEach(async el=>{
-    const url = el.getAttribute("data-include");
-    try{
-      const res = await fetch(url, {cache:"no-cache"});
-      el.innerHTML = await res.text();
-      // Mark current page in nav
-      const p = location.pathname.split("/").pop() || "index.html";
-      el.querySelectorAll('.nav a').forEach(a=>{
-        const target = a.getAttribute("href");
-        if ((target === p) || (target === "#" && p === "index.html")) {
-          a.setAttribute("aria-current","page");
-        }
-      });
-    }catch(e){ console.warn("Include failed for", url, e); }
-  });
-})();
-
-/* ======================================================
-   Scrollspy for Table of Contents
-   ------------------------------------------------------ */
-(function scrollSpy(){
-  const tocLinks = Array.from(document.querySelectorAll('.toc a[href^="#"]'));
-  if (!tocLinks.length) return;
-
-  const map = new Map();
-  tocLinks.forEach(a=>{
-    const id = decodeURIComponent(a.getAttribute("href").slice(1));
-    const el = document.getElementById(id);
-    if (el) map.set(el, a);
-  });
-
-  const io = new IntersectionObserver(entries=>{
-    entries.forEach(entry=>{
-      const a = map.get(entry.target);
-      if (!a) return;
-      if (entry.isIntersecting){
-        tocLinks.forEach(x=>x.classList.remove('active'));
-        a.classList.add('active'));
-        history.replaceState(null, "", "#"+entry.target.id);
-      }
+  async function loadNav() {
+    const navHost = $('#site-nav'); if (!navHost) return;
+    navHost.classList.add('nav-fade');
+    try {
+      const r = await fetch('nav.html', {cache:'no-store'});
+      navHost.innerHTML = r.ok ? await r.text() : `
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Full_Initiative.html">Initiative</a></li>
+          <li><a href="press.html">Press</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>`;
+    } catch {
+      navHost.innerHTML = `
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Full_Initiative.html">Initiative</a></li>
+          <li><a href="press.html">Press</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>`;
+    }
+    const here = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    $$('#site-nav a').forEach(a => {
+      const href = (a.getAttribute('href')||'').toLowerCase();
+      if (href === here) a.setAttribute('aria-current','page'), a.classList.add('active');
     });
-  }, { rootMargin:"-40% 0px -55% 0px", threshold:0.01 });
+    requestAnimationFrame(()=>navHost.classList.add('visible'));
+  }
 
-  map.forEach((a, el)=> io.observe(el));
+  function stampYear() {
+    const y = $('#yr'); if (y) y.textContent = new Date().getFullYear();
+  }
+
+  function watchScroll() {
+    const onScroll = () => {
+      if (window.scrollY > 10) document.body.classList.add('scrolled');
+      else document.body.classList.remove('scrolled');
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, {passive:true});
+  }
+
+  function enableSmoothScroll() {
+    document.addEventListener('click', (e) => {
+      const l = e.target.closest('a[href^="#"]');
+      if (!l) return;
+      const id = l.getAttribute('href').slice(1);
+      if (!id) return;
+      const t = document.getElementById(id);
+      if (!t) return;
+      e.preventDefault();
+      t.scrollIntoView({behavior:'smooth', block:'start'});
+      history.replaceState(null, '', `#${id}`);
+    });
+  }
+
+  function init() {
+    loadNav();
+    stampYear();
+    watchScroll();
+    enableSmoothScroll();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, {once:true});
+  } else {
+    init();
+  }
 })();
