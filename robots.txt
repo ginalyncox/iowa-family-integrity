@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ginalyncox.github.io/iowa-family-integrity/sitemap.xml
